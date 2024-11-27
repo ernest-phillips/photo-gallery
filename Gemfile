@@ -42,3 +42,4 @@ end
 
 gem 'devise'
 gem 'active_storage_validations' # Optional for image validation
+gem 'activeadmin' # For admin panel (optional)
