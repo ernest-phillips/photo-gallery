@@ -40,4 +40,5 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-
+gem 'devise'
+gem 'active_storage_validations' # Optional for image validation
