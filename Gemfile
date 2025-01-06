@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.2.1", ">= 7.2.1.1"
+gem "rails", "~> 7.1.2"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -43,3 +43,4 @@ end
 gem 'devise'
 gem 'active_storage_validations' # Optional for image validation
 gem 'activeadmin' # For admin panel (optional)
+gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
